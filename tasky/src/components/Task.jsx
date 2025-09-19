@@ -4,9 +4,9 @@ const Task = (props) => {
     
        return (
         <div className="card">
-            <b><p classname="title">{props.title}</p></b>
+            <p className="title">{props.title}</p>
             <p>Due: {props.deadline}</p>
-            <i><p classname="description">{props.description}</p></i>
+            <p className="description">{props.description}</p>
         </div>
     )
 }

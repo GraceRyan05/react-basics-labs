@@ -25,11 +25,12 @@ div {
 .title {
   font-weight: bold;
   font-size: 1.2em; 
+  color: darkslateblue;
 }
 
 .description {
   font-weight: italic;
-  color: grey;
+  color: skyblue;
 }
 
 .card {
